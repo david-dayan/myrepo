@@ -7,6 +7,11 @@ execute code within the notebook, the results appear beneath the code.
 Try executing this chunk by clicking the *Run* button within the chunk
 or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
 
+``` r
+require(ggplot2)
+ggplot()+geom_line(data = cars, aes(x = speed, y = dist))
+```
+
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or
 by pressing *Cmd+Option+I*.
 
